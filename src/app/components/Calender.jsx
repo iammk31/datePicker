@@ -24,7 +24,7 @@ const Calendar = () => {
       }
 
       while (currentDate <= end) {
-        dates.push(new Date(currentDate)); // Create a copy of the date object
+        dates.push(new Date(currentDate)); 
 
         switch (recurrence) {
           case "daily":

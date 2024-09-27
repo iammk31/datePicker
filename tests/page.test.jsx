@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import Page from '../src/app/page';
-import DatePicker from '../src/app/components/DatePicker'; // Adjust path if necessary
+import DatePicker from '../src/app/components/DatePicker';
 
 describe('Page', () => {
   test('renders the heading', () => {
